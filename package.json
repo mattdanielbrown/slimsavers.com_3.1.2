@@ -1,0 +1,27 @@
+{
+	"name": "slimsavers.com_3.1.2",
+	"packageManager": "yarn@4.1.1",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"private": true,
+	"keywords": [],
+	"author": "Matt Daniel Brown",
+	"license": "ISC",
+	"scripts": {
+		"clean": "rm dist/bundle.js",
+		"start": "snowpack dev",
+		"build": "snowpack build"
+	},
+	"dependencies": {
+		"tailwindcss": "^3.4.3"
+	},
+	"devDependencies": {
+		"@snowpack/plugin-postcss": "^1.4.3",
+		"@snowpack/plugin-sass": "^1.4.0",
+		"autoprefixer": "^10.4.19",
+		"postcss": "^8.4.38",
+		"postcss-cli": "^11.0.0",
+		"snowpack": "^3.8.8"
+	}
+}
